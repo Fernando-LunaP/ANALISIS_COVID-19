@@ -1,10 +1,8 @@
 ## Análisis de datos de covid-19 en Tampico
 
-You can use the [editor on GitHub](https://github.com/FerLunaP/ANALISIS_COVID-19/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+El objetivo de esta página es para dar a conocer los resultados del análisis de los datos de COVID-19 para el curso Herramientes de Productividad para Ciencia de Datos de la Universidad de Sonora.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Metodología
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
