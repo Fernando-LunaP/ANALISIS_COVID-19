@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Análisis de datos de covid-19 en Tampico
 
 You can use the [editor on GitHub](https://github.com/FerLunaP/ANALISIS_COVID-19/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
