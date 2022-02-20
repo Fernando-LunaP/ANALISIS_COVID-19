@@ -1,10 +1,14 @@
 ## Análisis de datos de covid-19 en Tampico
 
-El objetivo de esta página es para dar a conocer los resultados del análisis de los datos de COVID-19 para el curso Herramientes de Productividad para Ciencia de Datos de la Universidad de Sonora.
+El objetivo de esta página es para dar a conocer los resultados del análisis de los datos de COVID-19 para el curso **Herramientas de Productividad para Ciencia de Datos** de la Universidad de Sonora.
+
+Esta actividad tiene como objetivo mostrar la información de los casos positivos de COVID-19 en el municipio de Tampico, Tamaulipas con la base de datos de la información proporcionada por la Dirección General de Epidemiología.
 
 ### Metodología
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+[Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/Dockerfile).
 
 ```markdown
 Syntax highlighted code block
