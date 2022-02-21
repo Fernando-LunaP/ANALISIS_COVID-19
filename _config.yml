@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Descarga y procesamiento de los datos de Covid-19 en Tampico.
-description: Este repositorio se creó con el propósito de analizar los datos de Covid-19 en el municipio de Tampico perteneciente al Estado de Tamaulipas
+description: Este repositorio se creó con el propósito de analizar los datos de Covid-19 en el municipio de Tampico perteneciente al Estado de Tamaulipas.
+Además de mostrar la metodología utilizada para realizar dicho procesamiento.
