@@ -10,15 +10,11 @@ Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main
 
 - Se descargan los programas necesarios para obtener y realizar la alimpieza de los datos.
 - Se descarga la base de datos de la página de [Datos Abiertos Dirección General de Epidemiología](https://www.gob.mx/salud/documentos/datos-abiertos-152127).
-- Se realiza la limpieza de los datos para dejar solamente la información más relevante de los casos de Covid-19 en el municipio de Tampico.
-- Se genera un archivo csv listo para su análisis.
+- Limpieza de los datos para dejar solamente la información más relevante de los casos de Covid-19 en el municipio de Tampico.
+- Generación de archivo csv para su análisis.
+- Se transfiere el csv del contenedor de Docker al equipo.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+### Implementación
 
 - Bulleted
 - List
