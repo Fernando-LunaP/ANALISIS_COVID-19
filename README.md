@@ -19,6 +19,15 @@ Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main
 - Bulleted
 - List
 
+1. Clone the repo
+   ```sh
+   git clone  https://github.com/RobertoLorenzoAguilar/COVID-19-Analysis.git
+   ```
+2. Build the docker image note: no forget the final dot ".", after the next command
+   ```
+   docker build -t ubuntu .
+   ```
+
 1. Numbered
 2. List
 
