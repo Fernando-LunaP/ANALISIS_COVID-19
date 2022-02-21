@@ -16,12 +16,11 @@ Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main
 
 ### Implementación
 
-- Bulleted
-- List
+Para realizar la implementación necesitamos tener instalado [Docker](https://docs.docker.com/get-docker/) y [Git](https://git-scm.com/book/en/v2). Una vez instalados realizamos los siguiente:
 
-1. Clone the repo
-   ```sh
-   git clone  https://github.com/RobertoLorenzoAguilar/COVID-19-Analysis.git
+1. Clonamos el repositorio
+   ```
+   git clone https://github.com/FerLunaP/ANALISIS_COVID-19.git
    ```
 2. Build the docker image note: no forget the final dot ".", after the next command
    ```
