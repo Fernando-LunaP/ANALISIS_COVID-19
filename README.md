@@ -16,15 +16,27 @@ Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main
 
 ### Implementación
 
-Para realizar la implementación necesitamos tener instalado [Docker](https://docs.docker.com/get-docker/) y [Git](https://git-scm.com/book/en/v2). Una vez instalados realizamos los siguiente:
+Para realizar la implementación necesitamos tener instalado [Docker](https://docs.docker.com/get-docker/) y [Git](https://git-scm.com/book/en/v2). Una vez instalados abrimos el bash de Git y utilizamos los siguientes comandos: 
 
-1. Clonamos el repositorio
+1. Clonar el repositorio
    ```
    git clone https://github.com/FerLunaP/ANALISIS_COVID-19.git
    ```
-2. Build the docker image note: no forget the final dot ".", after the next command
+2. Generamos la imagen de Docker mediante el Dockerfile
    ```
-   docker build -t ubuntu .
+   docker build -t covid .
+   ```
+3. Creamos un nuevo contenedor a partir de la imagen generada en el paso anterior
+   ```
+  docker create -i --name CovidContainer covid
+   ```
+4. Iniciamos el contenedor
+   ```
+  docker start CovidContainer
+   ```
+5. Ejecutamos el contenedor (desde bash de Git ocupamos iniciar el comando con winpty)
+   ```
+  winpty docker exec -it CovidContainer bash
    ```
 
 1. Numbered
