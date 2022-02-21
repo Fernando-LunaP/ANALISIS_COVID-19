@@ -6,7 +6,12 @@ Esta actividad tiene como objetivo mostrar la información de los casos positivo
 
 ### Metodología
 
-Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/Dockerfile) se genera un contenedor de ubuntu que contiene los programas necesarios para la ejecutar un [script](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/covid_shell.sh).
+Mediante un [Dockerfile](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/Dockerfile) se genera un contenedor de ubuntu que contiene los programas necesarios para ejecutar un [script](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/covid_shell.sh). El procedimiento es el siguiente:
+
+- Se descargan los programas necesarios para obtener y realizar la alimpieza de los datos.
+- Se descarga la base de datos de la página de [Datos Abiertos Dirección General de Epidemiología](https://www.gob.mx/salud/documentos/datos-abiertos-152127).
+- Se realiza la limpieza de los datos para dejar solamente la información más relevante de los casos de Covid-19 en el municipio de Tampico.
+- Se genera un archivo csv listo para su análisis.
 
 ```markdown
 Syntax highlighted code block
