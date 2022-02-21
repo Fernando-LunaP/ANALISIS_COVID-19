@@ -42,3 +42,6 @@ Para realizar la implementación necesitamos tener instalado [Docker](https://do
    ```
   docker cp CovidContainer:/root/Covid_Tampico.csv .
    ```
+   
+### Resultados
+Se obtiene el archivo [Covid_Tampico.csv](https://github.com/FerLunaP/ANALISIS_COVID-19/blob/main/Covid_Tampico.csv) con los datos de los casos de Covid en el municipio de Tampico.
