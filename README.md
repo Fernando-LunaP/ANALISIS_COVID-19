@@ -28,19 +28,19 @@ Para realizar la implementación necesitamos tener instalado [Docker](https://do
    ```
 3. Creamos un nuevo contenedor a partir de la imagen generada en el paso anterior
    ```
-  docker create -i --name CovidContainer covid
+   docker create -i --name CovidContainer covid
    ```
 4. Iniciamos el contenedor
    ```
-  docker start CovidContainer
+   docker start CovidContainer
    ```
 5. Ejecutamos el contenedor (desde bash de Git ocupamos iniciar el comando con winpty)
    ```
-  winpty docker exec -it CovidContainer bash
+   winpty docker exec -it CovidContainer bash
    ```
 6. Al finalizar el procesamiento del paso anterior copiamos el archivo generado a nuestro equipo desde el contenedor.
    ```
-  docker cp CovidContainer:/root/Covid_Tampico.csv .
+   docker cp CovidContainer:/root/Covid_Tampico.csv .
    ```
    
 ### Resultados
